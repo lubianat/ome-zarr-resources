@@ -1,8 +1,8 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-16T17:13:05+00:00",
-  "recent_days": 30,
-  "total_commits": 1001,
+  "generated": "2026-06-16T17:42:04+00:00",
+  "recent_days": 10,
+  "total_commits": 1000,
   "commits": [
     {
       "commit_date": "2026-06-16T14:56:45.000+02:00",
@@ -6003,12 +6003,6 @@
       "author": "thewtex",
       "repository": "fideus-labs/fidnii",
       "commit_url": "https://github.com/fideus-labs/fidnii/commit/88ff11944bf5488c5b558e0c4505509e62cb9b12"
-    },
-    {
-      "commit_date": "2026-02-14T19:17:17.000-05:00",
-      "author": "tlambert03",
-      "repository": "imaging-formats/bffile",
-      "commit_url": "https://github.com/imaging-formats/bffile/commit/4424476c0aae91c54cc4d104a8a35813878556c9"
     }
   ]
 }

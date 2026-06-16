@@ -68,6 +68,7 @@ def fetch(since_iso: str | None) -> list[dict]:
     results: list[dict] = []
     page = 1
     while page <= 10:  # API caps search at 1000 results (10 pages x 100)
+        print(f"Fetching page {page} for query: {q}", file=sys.stderr)
         params = urllib.parse.urlencode(
             {
                 "q": q,

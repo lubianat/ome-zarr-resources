@@ -13,6 +13,7 @@
         --rule: #262c31;
         --accent: #7fd1b9; /* zarr teal */
         --sha: #b3a06a;
+        --new: #ffd700; /* gold for new repos */
         --mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono",
           Menlo, Consolas, monospace;
       }
@@ -106,6 +107,18 @@
       .author {
         color: var(--dim);
       }
+      .new-indicator {
+        color: var(--new);
+        font-size: 12px;
+        margin-left: 4px;
+        cursor: help;
+        text-decoration: none;
+        border-bottom: 1px dotted var(--new);
+      }
+      .new-indicator:hover {
+        color: #fff;
+        border-bottom-color: #fff;
+      }
       .empty,
       .err {
         color: var(--dim);
@@ -147,7 +160,7 @@
         Aggregated from the
         <a href="https://docs.github.com/en/rest/search/search#search-commits"
           >GitHub commit search API</a
-        >, refreshed daily. Last 10 days, newest first.
+        >, refreshed daily. 🆕 = repo not yet in the dashboard. Showing all commits, newest first.
       </footer>
     </div>
 
@@ -172,25 +185,66 @@
         return m ? m[1].slice(0, 6) : "commit";
       };
 
-      function render(data) {
+      // Parse dashboard.yml to extract known repositories
+      async function loadDashboardRepos() {
+        try {
+          const response = await fetch("../dashboard.yml", { cache: "no-cache" });
+
+          // parse also skip.yml
+          const skipResponse = await fetch("../to_skip.yml", { cache: "no-cache" });
+
+          if (!response.ok) return new Set();
+
+          const yamlText = await response.text();
+          const skipText = await skipResponse.text();
+
+          const totalText = yamlText + "\n" + skipText;
+          const repos = new Set();
+
+          // Simple YAML parsing for the repo structure
+          const lines = totalText.split('\n');
+          for (const line of lines) {
+            const match = line.match(/^\s*- repo:\s*(\S+)/);
+            if (match) {
+              repos.add(match[1]);
+            }
+          }
+
+          return repos;
+        } catch (e) {
+          console.warn("Couldn't load dashboard.yml:", e);
+          return new Set();
+        }
+      }
+
+      async function render(data) {
+        // Load known repositories from dashboard
+        const knownRepos = await loadDashboardRepos();
+
         const gen = new Date(data.generated);
-        const recentDays = data.recent_days || 10;
         const total = data.total_commits ?? data.commits.length;
-        meta.textContent = `${total} commits total · updated ${gen
+
+        // Count new repos across ALL data (not just recent days)
+        let newRepoCount = 0;
+        const allRepos = new Set();
+        for (const c of data.commits) {
+          allRepos.add(c.repository);
+        }
+
+        for (const repo of allRepos) {
+          if (!knownRepos.has(repo)) {
+            newRepoCount++;
+          }
+        }
+
+        meta.innerHTML = `${total} commits total · ${newRepoCount > 0 ? newRepoCount + ' new repos · ' : ''}updated ${gen
           .toISOString()
           .slice(0, 16)
           .replace("T", " ")} UTC`;
 
-        // Show only the last N days; full history lives in data.json.
-        const cutoff = new Date();
-        cutoff.setUTCDate(cutoff.getUTCDate() - recentDays);
-        cutoff.setUTCHours(0, 0, 0, 0);
-
-        // day -> repo -> [commits]
+        // Show ALL days — no cutoff
         const byDay = new Map();
         for (const c of data.commits) {
-          const date = new Date(c.commit_date);
-          if (date < cutoff) continue;
           const dayKey = c.commit_date.slice(0, 10);
           if (!byDay.has(dayKey)) byDay.set(dayKey, new Map());
           const repos = byDay.get(dayKey);
@@ -199,7 +253,7 @@
         }
 
         if (!byDay.size) {
-          log.innerHTML = `<p class="empty">No commits in the last ${recentDays} days. (${total} in full history — see data.json.)</p>`;
+          log.innerHTML = `<p class="empty">No commits found.</p>`;
           return;
         }
 
@@ -216,6 +270,10 @@
             const rows = repoList
               .map(([name, commits]) => {
                 const repoUrl = `https://github.com/${name}`;
+                const isNew = !knownRepos.has(name);
+                const newBadge = isNew
+                  ? ` <span class="new-indicator" title="New repository - not yet in dashboard.yml">✨🆕✨</span>`
+                  : '';
                 const links = commits
                   .map(
                     (c) =>
@@ -228,7 +286,7 @@
                 const word = n === 1 ? "commit" : "commits";
                 return `<div class="repo">&bull; <a class="name" href="${esc(
                   repoUrl
-                )}">${esc(name)}</a> <span class="tally">(${n} ${word}: <span class="shas">${links}</span>)</span></div>`;
+                )}">${newBadge} ${esc(name)}</a> <span class="tally">(${n} ${word}: <span class="shas">${links}</span>)</span></div>`;
               })
               .join("");
             return `<section class="day"><div class="day-head">${fmtDay(
@@ -240,6 +298,7 @@
           .join("");
       }
 
+      // Load data and render
       fetch("data.json", { cache: "no-cache" })
         .then((r) => {
           if (!r.ok) throw new Error(r.status);
