@@ -94,6 +94,7 @@
 - name: Integrative workflows
   packages:
     - repo: fractal-analytics-platform/fractal
+    - repo: BioVisionCenter/ngio
     - repo: ilastik/ilastik
     - repo: PolusAI/nyxus
     - repo: mastodon-sc/mastodon
@@ -110,6 +111,7 @@
 
 - name: Other tools (to curate)
   packages:
+    - repo: ilastik/clearscale
     - repo: BioImageTools/capability-manifest
     - repo: mehta-lab/VisCy
     - repo: khanlab/zarrnii
@@ -117,3 +119,31 @@
     - repo: biopb/biopb
     - repo: mapmanager/cloudscope
     - repo: mahmoodlab/TRIDENT
+    - repo: royerlab/hoct
+    - repo: assadiab/Viewer_interactif
+    - repo: khanlab/SPIMquant
+    - repo: czbiohub-sf/biahub
+    - repo: QI2lab/merfish3d-analysis
+    - repo: Huber-group-EMBL/romeo
+    - repo: pertzlab/faro
+    - repo: TissUUmaps/TissUUmaps4
+    - repo: German-BioImaging/ome-zarr-acknowledgments
+    - repo: maartenpaul/anybioimage
+    - repo: prism-oncology/sopa
+    - repo: ferrinm/zarrmony
+    - repo: Genentech/scallops
+    - repo: janelia-cellmap/mesh-n-bone
+    - repo: serg-bg/ome-zarr-converter
+    - repo: AugustHoeg/VoxelSR
+    - repo: WayScience/ome-arrow
+    - repo: ilastik/volumina
+    - repo: Pennsieve/Nifti-To-Zarr-Conversion
+    - repo: JaneliaSciComp/easifish
+    - repo: uw-loci/Flamingo_Control
+    - repo: kevinyamauchi/cellier
+    - repo: Alexander-Zangl/retina-track
+    - repo: ome/omero-figure
+    - repo: ome-zarr-models/ome-zarrpari
+    - repo: FZJ-INM1-BDA/tiamat
+    - repo: AI-HHMI/micro-agent
+    - repo: strmt7/ome-zarr-C
