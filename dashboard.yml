@@ -1,78 +1,101 @@
-- name: Bio-Formats packages
+# Adding tools / ecosystem in https://github.com/ome/ngff/pull/529
+
+- name: Zarr viewers
 
   packages:
-    - repo: ome/bioformats
-    - repo: ome/bio-formats-examples
-
-- name: OME-NGFF
-
-  packages:
-    - repo: ome/ngff
-    - repo: BioNGFF/ome-zarr.js
-    - repo: ome/omero-cli-zarr
-    - repo: ome/ome-zarr-py
-    - repo: ome/omero-zarr-pixel-buffer
-    - repo: glencoesoftware/omero-zarr-pixel-buffer
-    - repo: ome/ome-ngff-validator
-    - repo: ome/ome2024-ngff-challenge
-    - repo: ome/ome-ngff-tools
+    - repo: mobie/mobie
+    - repo: saalfeldlab/n5-ij
+    - repo: BioImageTools/ome-zarr-fiji-java
+    - repo: InsightSoftwareConsortium/itkwidgets
+    - repo: MPanknin/kiln-render
+    - repo: aafkegros/MicroscopyNodes
     - repo: ome/napari-ome-zarr
-    - repo: fideus-labs/ngff-zarr
-    - repo: BioVisionCenter/ngio
-    - repo: zarrs/ome_zarr_metadata
-    - repo: ome-zarr-models/ome-zarr-models-py
+    - repo: google/neuroglancer
+    - repo: alexcoulton/odon
+    - repo: qupath/qupath
+    - repo: syglass/syglass
+    - repo: hms-dbmi/viv
+    - repo: hms-dbmi/vizarr
+    - repo: BioNGFF/vizarr
+    - repo: allen-cell-animated/vole-core
+    - repo: scalableminds/webknossos
+
+- name: Zarr converters (with a UI)
+  packages:
+    - repo: glencoesoftware/NGFF-Converter
+
+- name: Zarr converters
+  packages:
+    - repo: Euro-BioImaging/BatchConvert
+    - repo: glencoesoftware/bioformats2raw
+    - repo: bioio-devs/bioio-conversion
+    - repo: Euro-BioImaging/EuBI-Bridge
+    - repo: InsightSoftwareConsortium/ITKIOOMEZarrNGFF
+    - repo: camlloyd/kfb2zarr
     - repo: spatial-image/multiscale-spatial-image
+    - repo: tlambert03/nd2
+    - repo: JaneliaSciComp/nf-omezarr
+    - repo: grinic/pymif
+    - repo: HiPCTProject/stack-to-chunk
+    - repo: CBI-PITT/stack_to_multiscale_ngff
 
-- name: OMERO Java packages
-
+- name: Zarr readers & writers
   packages:
-    - repo: ome/openmicroscopy
-    - repo: ome/omero-model
-    - repo: ome/omero-common
-    - repo: ome/omero-romio
-    - repo: ome/omero-server
-    - repo: ome/omero-blitz
-    - repo: ome/omero-insight
+    - repo: PolusAI/bfio
+    - repo: BioImage-Archive/bia-zarr
+    - repo: ome/bioformats
+    - repo: bioio-devs/bioio
+    - repo: fmicompbio/ez_zarr
+    - repo: czbiohub-sf/iohub
+    - repo: fideus-labs/ngff-zarr
+    - repo: biovisioncenter/ngio
+    - repo: pymmcore-plus/ome-writers
+    - repo: ome/ome-zarr-py
+    - repo: BiologyTools/Zarr.NET
 
-- name: OMERO Python packages
-
+- name: Zarr validation
   packages:
-    - repo: ome/omero-py
-    - repo: ome/omero-web
-    - repo: ome/omero-dropbox
-    - repo: ome/omero-marshal
-    - repo: ome/omero-cli-render
-    - repo: ome/omero-cli-transfer
-    - repo: ome/omero-scripts
-    - repo: TheJacksonLaboratory/ezomero
+    - repo: ome/ome-ngff-validator
+    - repo: ome-zarr-models/ome-zarr-models-py
+    - repo: imaging-formats/yaozarrs
 
-- name: OMERO Web Javascript apps
-
+- name: Rendering libraries
   packages:
-    - repo: ome/omero-iviewer
-    - repo: ome/omero-figure
-    - repo: German-BioImaging/omero-autotag
-    - repo: German-BioImaging/omero-tagsearch
+    - repo: TissUUmaps/OMEZarrTileSource
+    - repo: BioNGFF/ome-zarr.js
+    - repo: chanzuckerberg/idetik
 
-- name: OME Linked Data
-
+- name: Standards and extensions
   packages:
-    - repo: German-BioImaging/omero-rdf
-    - repo: German-BioImaging/ome-ld
+    - repo: scverse/spatialdata
+    - repo: bids-standard/bids-specification
 
-- name: Training packages and documentation
-
+- name: Gallery-like displays
   packages:
-    - repo: ome/omero-guides
-    - repo: ome/status
+    - repo: AllenInstitute/biofile-finder
+    - repo: JaneliaSciComp/fileglancer
+    - repo: openssbd/zallery
+    - repo: JaneliaSciComp/zarrcade
 
-- name: Ansible, Docker and examples
+    - repo: lubianat/zowser
 
+- name: Microscope acquisition software
   packages:
-    - repo: ome/prod-playbooks
-    - repo: ome/ansible-role-omero-server
-    - repo: ome/ansible-role-omero-web
-    - repo: ome/docker-example-omero
-    - repo: ome/omero-web-docker
-    - repo: ome/omero-server-docker
+    - repo: mesoSPIM/mesoSPIM-control
+    - repo: Cephla-Lab/Squid
 
+- name: Integrative workflows
+  packages:
+    - repo: fractal-analytics-platform/fractal
+    - repo: ilastik/ilastik
+    - repo: PolusAI/nyxus
+    - repo: mastodon-sc/mastodon
+    - repo: multiview-stitcher/multiview-stitcher
+    - repo: NL-BioImaging/NL-BIOMERO
+    - repo: glencoesoftware/omero-zarr-pixel-buffer
+
+- name: Extended metadata frameworks
+  packages:
+    - repo: clbarnes/zarr-convention-thumbnails
+    - repo: researchobject/ro-crate
+    - repo: mlcommons/BioCroissant
