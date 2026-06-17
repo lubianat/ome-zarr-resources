@@ -1,4 +1,4 @@
-generated_at: '2026-06-17T09:56:05.747709Z'
+generated_at: '2026-06-17T10:33:20.834622Z'
 sections:
 - name: Core
   packages:
@@ -420,10 +420,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: hotzenklotz
-      date: '2026-06-16'
-      sha: aba7435f55bc9e032af8b9699f72bb9b7dc215c9
+      date: '2026-06-17'
+      sha: 850e3a2f9923ba5443cfd6a01cc34a91e77cf809
       status: SUCCESS
-      url: https://github.com/scalableminds/webknossos/commit/aba7435f55bc9e032af8b9699f72bb9b7dc215c9
+      url: https://github.com/scalableminds/webknossos/commit/850e3a2f9923ba5443cfd6a01cc34a91e77cf809
     last_release:
       date: '2026-05-27'
       tag_name: 26.06.0
@@ -433,7 +433,7 @@ sections:
     repo_info:
       created_at: '2012-05-14T16:26:17Z'
       description: Visualize, share and annotate your large 3D images online
-      open_issues: 343
+      open_issues: 341
       size: 847418
       stargazers_count: 175
       topics:
@@ -444,7 +444,7 @@ sections:
       - microscopy-images
       - neurobiology
       - reconstruction
-      updated_at: '2026-06-17T02:24:19Z'
+      updated_at: '2026-06-17T09:58:10Z'
     user: scalableminds
     workflow_run_status: FAILURE
 - name: Zarr converters (with a UI)
@@ -1496,7 +1496,7 @@ sections:
     repo_info:
       created_at: '2012-05-08T15:59:36Z'
       description: ilastik-shell, applets, and workflows to string them together.
-      open_issues: 581
+      open_issues: 582
       size: 138882
       stargazers_count: 399
       topics:
@@ -1883,7 +1883,7 @@ sections:
       description: 'Toolkit for large-scale whole-slide image processing. '
       open_issues: 35
       size: 3501
-      stargazers_count: 577
+      stargazers_count: 578
       topics:
       - deep-learning
       - foundation-model
@@ -1891,7 +1891,7 @@ sections:
       - histology
       - pathology
       - whole-slide-image
-      updated_at: '2026-06-17T06:09:52Z'
+      updated_at: '2026-06-17T10:08:02Z'
     user: mahmoodlab
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1937,9 +1937,9 @@ sections:
   - last_commit:
       author: akhanf
       date: '2026-06-17'
-      sha: b2f7008f18708fd58320cbdd253a0150aae8943a
-      status: FAILURE
-      url: https://github.com/khanlab/SPIMquant/commit/b2f7008f18708fd58320cbdd253a0150aae8943a
+      sha: 5df369a3159da5afc2de0bfefbbb6a8699f64f51
+      status: SUCCESS
+      url: https://github.com/khanlab/SPIMquant/commit/5df369a3159da5afc2de0bfefbbb6a8699f64f51
     last_release:
       date: '2026-06-12'
       tag_name: v0.8.0
@@ -1950,7 +1950,7 @@ sections:
       created_at: '2024-02-15T21:41:31Z'
       description: SnakeBIDS app for quantitative analysis of SPIM (lightsheet) brain
         data
-      open_issues: 17
+      open_issues: 16
       size: 135906
       stargazers_count: 7
       topics:
@@ -1959,9 +1959,9 @@ sections:
       - mri
       - snakebids
       - spim
-      updated_at: '2026-06-17T08:20:28Z'
+      updated_at: '2026-06-17T10:03:20Z'
     user: khanlab
-    workflow_run_status: FAILURE
+    workflow_run_status: SUCCESS
   - last_commit:
       author: ieivanov
       date: '2026-06-12'
@@ -2561,10 +2561,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: nilsmechtel
-      date: '2026-06-15'
-      sha: dc17ddc79c8e5b8416c0aec2808682422a02436d
+      date: '2026-06-17'
+      sha: a43dcaa10d042d7d4e042e69cfde2d4b1862668a
       status: null
-      url: https://github.com/aicell-lab/bioengine/commit/dc17ddc79c8e5b8416c0aec2808682422a02436d
+      url: https://github.com/aicell-lab/bioengine/commit/a43dcaa10d042d7d4e042e69cfde2d4b1862668a
     name: bioengine
     repo: aicell-lab/bioengine
     repo_info:
@@ -2587,7 +2587,7 @@ sections:
       - model-zoo
       - python
       - ray-serve
-      updated_at: '2026-06-15T14:56:11Z'
+      updated_at: '2026-06-17T10:00:06Z'
     user: aicell-lab
     workflow_run_status: SUCCESS
   - last_commit:
