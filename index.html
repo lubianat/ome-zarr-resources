@@ -19,6 +19,7 @@
     </p>
     <p> Check also the latest <a href="./commits/">OME-Zarr commits</a> on GitHub. </p>
     <p id="generated-at" class="meta-cell"></p>
+    <p id="total_count" class="meta-cell"></p>
     <div id="error" class="error-note" style="display:none;"></div>
     <div id="sections">
       <div class="section-card">
@@ -33,6 +34,7 @@
     (function () {
       const sectionsEl = document.getElementById('sections');
       const generatedAtEl = document.getElementById('generated-at');
+      const totalCountEl = document.getElementById('total_count');
       const errorEl = document.getElementById('error');
 
       const headers = [
@@ -403,6 +405,12 @@
         } else {
           generatedAtEl.textContent = '';
         }
+        // Display total count of repos, summing all sections
+        const totalCount = (data.sections || []).reduce((sum, section) => {
+          const count = Array.isArray(section.packages) ? section.packages.length : 0;
+          return sum + count;
+        }, 0);
+        totalCountEl.textContent = 'Total repos: ' + totalCount;
         (data.sections || []).forEach(section => {
           sectionsEl.appendChild(buildSection(section));
         });

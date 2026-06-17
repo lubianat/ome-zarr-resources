@@ -1,9 +1,15 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-16T17:42:04+00:00",
+  "generated": "2026-06-17T07:50:34+00:00",
   "recent_days": 10,
-  "total_commits": 1000,
+  "total_commits": 1001,
   "commits": [
+    {
+      "commit_date": "2026-06-16T15:47:13.000-03:00",
+      "author": "lubianat",
+      "repository": "lubianat/ome-zarr-resources",
+      "commit_url": "https://github.com/lubianat/ome-zarr-resources/commit/7fd702ab83b18b5c7ba7a4036c460605e065a187"
+    },
     {
       "commit_date": "2026-06-16T14:56:45.000+02:00",
       "author": "btbest",

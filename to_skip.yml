@@ -9,7 +9,7 @@
     - repo: ome/EMBL-EBI-imaging-course-05-2023
     - repo: fmi-faim/mozarrt
     - repo: mittoalb/ccfalign
-
+    - repo: ScilifelabDataCentre/RDM-guidelines
 
 - name: Somewhat OME-Zarr perhaps, just skip for now
   packages:
@@ -26,8 +26,11 @@
     - repo: girochat/napari-crop-tool
     - repo:     noheton/shepard
     - repo: cloudvoyant/codevoyant
-
-
+    - repo: canpute/simplezarr
+    - repo: xX-its-amit-Xx/volumetric-qc
+    - repo: gcharvin/detecdiv-hub
+    - repo: cheeseman-lab/goudacell
+    - repo: SamanthaKraft/NIFTI-TO-ZARR
 
 
 - name: Not really OME-Zarr
