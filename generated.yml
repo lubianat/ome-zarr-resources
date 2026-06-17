@@ -1,4 +1,4 @@
-generated_at: '2026-06-17T09:26:05.129224Z'
+generated_at: '2026-06-17T09:42:25.440388Z'
 sections:
 - name: Core
   packages:
@@ -46,7 +46,7 @@ sections:
       created_at: '2025-09-24T07:50:01Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 25
+      open_issues: 26
       size: 2965
       stargazers_count: 13
       topics: []
@@ -295,7 +295,7 @@ sections:
       description: QuPath - Open-source bioimage analysis for research
       open_issues: 30
       size: 104893
-      stargazers_count: 1379
+      stargazers_count: 1380
       topics:
       - bioimage-analysis
       - bioimage-informatics
@@ -313,7 +313,7 @@ sections:
       - pathology
       - tissue-microarray-analysis
       - whole-slide-imaging
-      updated_at: '2026-06-17T03:54:40Z'
+      updated_at: '2026-06-17T09:30:07Z'
     user: qupath
     workflow_run_status: SUCCESS
   - error: true
@@ -434,7 +434,7 @@ sections:
       created_at: '2012-05-14T16:26:17Z'
       description: Visualize, share and annotate your large 3D images online
       open_issues: 344
-      size: 847400
+      size: 847418
       stargazers_count: 175
       topics:
       - connectomics
@@ -1073,7 +1073,7 @@ sections:
     repo_info:
       created_at: '2026-02-19T13:39:18Z'
       description: Zarr reader and writer in .NET
-      open_issues: 2
+      open_issues: 3
       size: 692
       stargazers_count: 2
       topics: []
@@ -1097,7 +1097,7 @@ sections:
     repo_info:
       created_at: '2022-05-24T11:39:57Z'
       description: Web page for validating OME-NGFF files
-      open_issues: 20
+      open_issues: 19
       size: 2312
       stargazers_count: 12
       topics:
@@ -2691,6 +2691,51 @@ sections:
       updated_at: '2026-06-12T09:32:53Z'
     user: M4i-Imaging-Mass-Spectrometry
     workflow_run_status: SUCCESS
+  - last_commit:
+      author: d33bs
+      date: '2026-03-29'
+      sha: 4700e75589d02667e6f2dedb7df7d5675bc0c4b6
+      status: SUCCESS
+      url: https://github.com/WayScience/duckdb_zarr/commit/4700e75589d02667e6f2dedb7df7d5675bc0c4b6
+    last_release:
+      date: '2026-03-29'
+      tag_name: v0.0.2
+      url: https://github.com/WayScience/duckdb_zarr/releases/tag/v0.0.2
+    name: duckdb_zarr
+    repo: WayScience/duckdb_zarr
+    repo_info:
+      created_at: '2026-03-22T15:37:47Z'
+      description: A DuckDB extension for querying Zarr arrays with SQL through relational
+        projection.
+      open_issues: 0
+      size: 33194
+      stargazers_count: 7
+      topics: []
+      updated_at: '2026-06-17T09:23:41Z'
+    user: WayScience
+    workflow_run_status: SUCCESS
+  - last_commit:
+      author: TorecLuik
+      date: '2026-04-20'
+      sha: 555304536e294b5085201a9bdeb9d939ffcda45c
+      status: null
+      url: https://github.com/Cellular-Imaging-Amsterdam-UMC/simple-zarr-plate-processor/commit/555304536e294b5085201a9bdeb9d939ffcda45c
+    last_release:
+      date: '2026-04-20'
+      tag_name: v0.3.0
+      url: https://github.com/Cellular-Imaging-Amsterdam-UMC/simple-zarr-plate-processor/releases/tag/v0.3.0
+    name: simple-zarr-plate-processor
+    repo: Cellular-Imaging-Amsterdam-UMC/simple-zarr-plate-processor
+    repo_info:
+      created_at: '2026-03-25T13:13:23Z'
+      description: null
+      open_issues: 0
+      size: 28
+      stargazers_count: 1
+      topics: []
+      updated_at: '2026-06-17T09:26:31Z'
+    user: Cellular-Imaging-Amsterdam-UMC
+    workflow_run_status: NO_WORKFLOWS
 - name: Depend on OME-Zarr Py
   packages:
   - last_commit:
