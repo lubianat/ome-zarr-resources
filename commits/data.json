@@ -1,8 +1,8 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-18T08:21:39+00:00",
+  "generated": "2026-06-18T09:45:35+00:00",
   "recent_days": 10,
-  "total_commits": 1010,
+  "total_commits": 1011,
   "commits": [
     {
       "commit_date": "2026-06-17T21:02:20.000+01:00",
@@ -15,6 +15,12 @@
       "author": "regro-cf-autotick-bot",
       "repository": "conda-forge/conda-forge-bot-data",
       "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/6ff5f5935957248bb0c98b579b1e93a867836715"
+    },
+    {
+      "commit_date": "2026-06-17T15:13:03.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/2614b102b3feea674bbb8a9f956105665a191b40"
     },
     {
       "commit_date": "2026-06-17T12:46:49.000-05:00",
