@@ -2,8 +2,8 @@ name: Update commit feed
 
 on:
   schedule:
-    - cron: "17 5 * * *" # daily ~05:17 UTC
-  workflow_dispatch: {} # manual trigger
+    - cron: "17 5 * * *"
+  workflow_dispatch: {}
   push:
     branches: [main]
 
@@ -19,6 +19,9 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -48,4 +51,5 @@ jobs:
           path: "."
 
       - name: Deploy to Pages
+        id: deployment
         uses: actions/deploy-pages@v4
