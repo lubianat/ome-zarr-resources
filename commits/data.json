@@ -1,14 +1,110 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-18T09:45:35+00:00",
+  "generated": "2026-06-19T08:45:24+00:00",
   "recent_days": 10,
-  "total_commits": 1011,
+  "total_commits": 1027,
   "commits": [
+    {
+      "commit_date": "2026-06-18T21:38:19.000+02:00",
+      "author": "imagejan",
+      "repository": "conda-forge/bioio-ome-zarr-feedstock",
+      "commit_url": "https://github.com/conda-forge/bioio-ome-zarr-feedstock/commit/317aa1c495fc6c7aefe0f882009fc96e2fe04c2e"
+    },
+    {
+      "commit_date": "2026-06-18T19:38:39.000Z",
+      "author": "conda-forge-webservices[bot]",
+      "repository": "conda-forge/feedstocks",
+      "commit_url": "https://github.com/conda-forge/feedstocks/commit/2d9d3f9d3f0baea883d6dcd287c3b31aeaa73f2c"
+    },
+    {
+      "commit_date": "2026-06-18T16:29:48.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony-phenix",
+      "commit_url": "https://github.com/ferrinm/zarrmony-phenix/commit/f8be46d525a5812b91bd8e6e02065dc20bf7850b"
+    },
+    {
+      "commit_date": "2026-06-18T16:22:34.000+02:00",
+      "author": "lguerard",
+      "repository": "imcf/Blockbuster",
+      "commit_url": "https://github.com/imcf/Blockbuster/commit/b208eecbb24c0b663ff62af4358bee55ec5a2775"
+    },
+    {
+      "commit_date": "2026-06-18T16:12:53.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/4475569e3672e02ac19e61e455fdd18e240476d2"
+    },
+    {
+      "commit_date": "2026-06-18T15:48:46.000+01:00",
+      "author": "xinaesthete",
+      "repository": "Taylor-CCB-Group/SpatialData.js",
+      "commit_url": "https://github.com/Taylor-CCB-Group/SpatialData.js/commit/e20648df7ba22b869949b684ab70348978eb8774"
+    },
+    {
+      "commit_date": "2026-06-18T15:30:37.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/69bc9e5b34d7f0a8427d6f92f5c522e3f215b222"
+    },
+    {
+      "commit_date": "2026-06-18T14:40:45.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/58c2c9e8cd8a0597c790bcd95479095cc983a660"
+    },
+    {
+      "commit_date": "2026-06-18T13:59:33.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/ab43b1f67a8b0f0e1f4eecbf24c25c312750e724"
+    },
+    {
+      "commit_date": "2026-06-18T13:14:12.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/b334f51e3879e09e246cd9faa2fe92718ff3ae35"
+    },
+    {
+      "commit_date": "2026-06-18T12:37:34.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/52cb05cc9dc847cb9cd794d3e59a5d44ac7c5d9b"
+    },
+    {
+      "commit_date": "2026-06-18T12:30:22.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/926feb976b229437d67f3ff405fabc729bee5a22"
+    },
+    {
+      "commit_date": "2026-06-18T09:54:29.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/2fb2f316f24e3f3ef0f69ae6dba3e98900ca1f11"
+    },
+    {
+      "commit_date": "2026-06-18T07:58:19.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/598ed91e6f3b15533d9a50a59b8cd68b3674e22f"
+    },
     {
       "commit_date": "2026-06-17T21:02:20.000+01:00",
       "author": "nelsmedina",
       "repository": "StructuralNeurobiologyLab/MOSS",
       "commit_url": "https://github.com/StructuralNeurobiologyLab/MOSS/commit/c1c04b7bc68867a6e0f2bd9550cbf96dbb933f1f"
+    },
+    {
+      "commit_date": "2026-06-17T17:57:07.000+02:00",
+      "author": "btbest",
+      "repository": "ilastik/clearscale",
+      "commit_url": "https://github.com/ilastik/clearscale/commit/4e0a8e0a376e28468067e7f8939a68705cee02f1"
+    },
+    {
+      "commit_date": "2026-06-17T17:36:26.000-04:00",
+      "author": "thewtex",
+      "repository": "fideus-labs/ngff-zarr",
+      "commit_url": "https://github.com/fideus-labs/ngff-zarr/commit/35cbd658c69c96e73a4f6e58f462ee711583b484"
     },
     {
       "commit_date": "2026-06-17T16:21:29.000-05:00",
