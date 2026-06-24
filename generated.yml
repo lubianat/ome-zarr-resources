@@ -1,13 +1,13 @@
-generated_at: '2026-06-23T09:29:08.960774Z'
+generated_at: '2026-06-24T08:59:43.391612Z'
 sections:
 - name: Core
   packages:
   - last_commit:
       author: joshmoore
-      date: '2026-06-17'
-      sha: 1ea8323282ec0f643b601e72a21553e54e53e7c7
+      date: '2026-06-23'
+      sha: 3abf823769442ecbe3cfd6c0dd9c2700f705be6f
       status: SUCCESS
-      url: https://github.com/ome/ngff/commit/1ea8323282ec0f643b601e72a21553e54e53e7c7
+      url: https://github.com/ome/ngff/commit/3abf823769442ecbe3cfd6c0dd9c2700f705be6f
     last_release:
       date: '2025-01-28'
       tag_name: 0.5.2
@@ -18,8 +18,8 @@ sections:
       created_at: '2020-11-17T14:55:39Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 133
-      size: 14957
+      open_issues: 131
+      size: 14970
       stargazers_count: 165
       topics:
       - bioimaging
@@ -27,15 +27,15 @@ sections:
       - data-science
       - file-formats
       - spec
-      updated_at: '2026-06-17T13:58:14Z'
+      updated_at: '2026-06-23T13:43:02Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
-      author: btbest
-      date: '2026-06-22'
-      sha: 8b761f2304bf513a091cd9ed3d79e5ae2a63ec9a
+      author: joshmoore
+      date: '2026-06-24'
+      sha: 614f910c3aac0611fb2a826acda51ac4132a53b1
       status: SUCCESS
-      url: https://github.com/ome/ngff-spec/commit/8b761f2304bf513a091cd9ed3d79e5ae2a63ec9a
+      url: https://github.com/ome/ngff-spec/commit/614f910c3aac0611fb2a826acda51ac4132a53b1
     last_release:
       date: '2026-04-28'
       tag_name: 0.6.dev4
@@ -46,11 +46,11 @@ sections:
       created_at: '2025-09-24T07:50:01Z'
       description: Next-generation file format (NGFF) specifications for storing bioimaging
         data in the cloud.
-      open_issues: 28
+      open_issues: 26
       size: 2924
       stargazers_count: 13
       topics: []
-      updated_at: '2026-06-22T13:12:10Z'
+      updated_at: '2026-06-24T08:40:31Z'
     user: ome
     workflow_run_status: SUCCESS
 - name: Zarr viewers
@@ -84,7 +84,7 @@ sections:
     repo_info:
       created_at: '2018-02-27T16:23:57Z'
       description: ImageJ convenience layer for N5
-      open_issues: 29
+      open_issues: 30
       size: 3044
       stargazers_count: 21
       topics:
@@ -249,8 +249,8 @@ sections:
     repo_info:
       created_at: '2016-05-27T02:37:25Z'
       description: WebGL-based viewer for volumetric data
-      open_issues: 237
-      size: 16272
+      open_issues: 234
+      size: 16263
       stargazers_count: 1336
       topics: []
       updated_at: '2026-06-22T21:03:26Z'
@@ -280,10 +280,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: petebankhead
-      date: '2026-06-18'
-      sha: 31fba71df17d0e535ddf68da75272aed0782a764
+      date: '2026-06-23'
+      sha: 30b4b9bae16fef9aa3918847652cf3913e873e25
       status: SUCCESS
-      url: https://github.com/qupath/qupath/commit/31fba71df17d0e535ddf68da75272aed0782a764
+      url: https://github.com/qupath/qupath/commit/30b4b9bae16fef9aa3918847652cf3913e873e25
     last_release:
       date: '2026-03-02'
       tag_name: v0.7.0
@@ -294,7 +294,7 @@ sections:
       created_at: '2016-08-28T14:31:41Z'
       description: QuPath - Open-source bioimage analysis for research
       open_issues: 30
-      size: 104896
+      size: 104980
       stargazers_count: 1388
       topics:
       - bioimage-analysis
@@ -313,7 +313,7 @@ sections:
       - pathology
       - tissue-microarray-analysis
       - whole-slide-imaging
-      updated_at: '2026-06-23T07:59:20Z'
+      updated_at: '2026-06-23T11:24:06Z'
     user: qupath
     workflow_run_status: SUCCESS
   - error: true
@@ -372,7 +372,7 @@ sections:
       - zarr
       updated_at: '2026-06-19T11:59:48Z'
     user: hms-dbmi
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
       author: semantic-release-bot
       date: '2026-04-01'
@@ -396,11 +396,11 @@ sections:
     user: BioNGFF
     workflow_run_status: SUCCESS
   - last_commit:
-      author: dependabot[bot]
-      date: '2026-06-10'
-      sha: dfebe3cd448a54ccb24692f1a667407132d6c538
+      author: ascibisz
+      date: '2026-06-23'
+      sha: 78e4fdbf161e160e3fa23a30b6b00ee4be88985e
       status: SUCCESS
-      url: https://github.com/allen-cell-animated/vole-core/commit/dfebe3cd448a54ccb24692f1a667407132d6c538
+      url: https://github.com/allen-cell-animated/vole-core/commit/78e4fdbf161e160e3fa23a30b6b00ee4be88985e
     last_release:
       date: '2026-05-18'
       tag_name: v4.9.1
@@ -411,30 +411,30 @@ sections:
       created_at: '2018-05-23T18:34:11Z'
       description: core rendering canvas and data loading services for Vol-E volume
         viewer
-      open_issues: 62
-      size: 51732
+      open_issues: 65
+      size: 52241
       stargazers_count: 102
       topics: []
-      updated_at: '2026-06-10T20:36:08Z'
+      updated_at: '2026-06-23T16:53:59Z'
     user: allen-cell-animated
-    workflow_run_status: SUCCESS
+    workflow_run_status: FAILURE
   - last_commit:
-      author: hotzenklotz
-      date: '2026-06-23'
-      sha: 4ca48a08db5d37ad4024d2e7b1e98e765aa6e00a
+      author: MichaelBuessemeyer
+      date: '2026-06-24'
+      sha: 81a98e436b9c7b67187804a96ca8af254516a32b
       status: SUCCESS
-      url: https://github.com/scalableminds/webknossos/commit/4ca48a08db5d37ad4024d2e7b1e98e765aa6e00a
+      url: https://github.com/scalableminds/webknossos/commit/81a98e436b9c7b67187804a96ca8af254516a32b
     last_release:
-      date: '2026-05-27'
-      tag_name: 26.06.0
-      url: https://github.com/scalableminds/webknossos/releases/tag/26.06.0
+      date: '2026-06-23'
+      tag_name: 26.07.0
+      url: https://github.com/scalableminds/webknossos/releases/tag/26.07.0
     name: webknossos
     repo: scalableminds/webknossos
     repo_info:
       created_at: '2012-05-14T16:26:17Z'
       description: Visualize, share and annotate your large 3D images online
-      open_issues: 343
-      size: 846560
+      open_issues: 340
+      size: 847420
       stargazers_count: 176
       topics:
       - connectomics
@@ -444,7 +444,7 @@ sections:
       - microscopy-images
       - neurobiology
       - reconstruction
-      updated_at: '2026-06-23T08:06:42Z'
+      updated_at: '2026-06-24T08:00:38Z'
     user: scalableminds
     workflow_run_status: SUCCESS
 - name: Zarr converters (with a UI)
@@ -833,10 +833,10 @@ sections:
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: sbesson
-      date: '2026-06-12'
-      sha: fbca9c191b800c127724381af6eb72dfcbf32007
+      date: '2026-06-24'
+      sha: dcdbd99c4bdc3f9e0b1391f9703eb92ad3394ff5
       status: SUCCESS
-      url: https://github.com/ome/bioformats/commit/fbca9c191b800c127724381af6eb72dfcbf32007
+      url: https://github.com/ome/bioformats/commit/dcdbd99c4bdc3f9e0b1391f9703eb92ad3394ff5
     last_release:
       date: '2026-03-18'
       tag_name: v8.5.0
@@ -849,8 +849,8 @@ sections:
         life sciences image file formats. It is developed by the  Open Microscopy
         Environment. Bio-Formats is released under the  GNU General Public License
         (GPL); commercial licenses are available from  Glencoe Software. '
-      open_issues: 164
-      size: 280738
+      open_issues: 162
+      size: 280739
       stargazers_count: 423
       topics:
       - bio-formats
@@ -863,7 +863,7 @@ sections:
       - metadata
       - whole-slide-imaging
       - wsi
-      updated_at: '2026-06-20T08:22:58Z'
+      updated_at: '2026-06-24T07:47:26Z'
     user: ome
     workflow_run_status: SUCCESS
   - last_commit:
@@ -936,8 +936,8 @@ sections:
       created_at: '2022-11-22T21:57:09Z'
       description: Pythonic and parallelizable I/O for N-dimensional imaging data
         with OME metadata
-      open_issues: 52
-      size: 2528
+      open_issues: 54
+      size: 2530
       stargazers_count: 53
       topics:
       - bioimaging
@@ -952,9 +952,9 @@ sections:
   - last_commit:
       author: thewtex
       date: '2026-06-23'
-      sha: c220f1ed8855caf73d249a2258cae3aafc6c4e46
+      sha: 50bd13c8a32e612957cac05156013df63d22a5b1
       status: SUCCESS
-      url: https://github.com/fideus-labs/ngff-zarr/commit/c220f1ed8855caf73d249a2258cae3aafc6c4e46
+      url: https://github.com/fideus-labs/ngff-zarr/commit/50bd13c8a32e612957cac05156013df63d22a5b1
     last_release:
       date: '2026-06-19'
       tag_name: py-v0.36.2
@@ -965,8 +965,8 @@ sections:
       created_at: '2022-09-27T00:37:16Z'
       description: A lean and kind Open Microscopy Environment (OME) Next Generation
         File Format (NGFF) Zarr implementation.
-      open_issues: 21
-      size: 10179
+      open_issues: 19
+      size: 10317
       stargazers_count: 71
       topics:
       - dask
@@ -976,7 +976,7 @@ sections:
       - ome-zarr
       - ome-zarr-converter
       - python
-      updated_at: '2026-06-23T00:14:09Z'
+      updated_at: '2026-06-23T21:02:07Z'
     user: fideus-labs
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1204,24 +1204,24 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: shlomnissan
-      date: '2026-06-22'
-      sha: 3d0d4a04c88b93c449f610c3ab2a02052fc21494
+      date: '2026-06-23'
+      sha: 5380ddd9f764d2f8e3c2c6659638568ef8d11fa4
       status: SUCCESS
-      url: https://github.com/chanzuckerberg/idetik/commit/3d0d4a04c88b93c449f610c3ab2a02052fc21494
+      url: https://github.com/chanzuckerberg/idetik/commit/5380ddd9f764d2f8e3c2c6659638568ef8d11fa4
     last_release:
-      date: '2026-06-22'
-      tag_name: v0.27.2
-      url: https://github.com/chanzuckerberg/idetik/releases/tag/v0.27.2
+      date: '2026-06-23'
+      tag_name: v0.27.3
+      url: https://github.com/chanzuckerberg/idetik/releases/tag/v0.27.3
     name: idetik
     repo: chanzuckerberg/idetik
     repo_info:
       created_at: '2024-08-07T20:39:56Z'
       description: null
       open_issues: 60
-      size: 5102
+      size: 5125
       stargazers_count: 13
       topics: []
-      updated_at: '2026-06-22T22:01:26Z'
+      updated_at: '2026-06-23T20:49:42Z'
     user: chanzuckerberg
     workflow_run_status: FAILURE
 - name: Standards and extensions
@@ -1241,8 +1241,8 @@ sections:
     repo_info:
       created_at: '2022-04-30T19:41:52Z'
       description: An open and interoperable data framework for spatial omics data
-      open_issues: 270
-      size: 3024
+      open_issues: 269
+      size: 3037
       stargazers_count: 381
       topics: []
       updated_at: '2026-06-23T08:17:05Z'
@@ -1294,7 +1294,7 @@ sections:
         and sharing of datasets through rich metadata search, filter, sort, and direct
         viewing in common industry applications or in our web-based 3D Volume Viewer.
       open_issues: 73
-      size: 58101
+      size: 58108
       stargazers_count: 20
       topics:
       - fair
@@ -1318,8 +1318,8 @@ sections:
     repo_info:
       created_at: '2025-01-17T18:28:53Z'
       description: 'Browse, share, and publish OME-Zarr data '
-      open_issues: 7
-      size: 10653
+      open_issues: 10
+      size: 10443
       stargazers_count: 26
       topics:
       - imaging
@@ -1418,10 +1418,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: Alpaca233
-      date: '2026-06-18'
-      sha: 06a91af4cdb9a5b1475037ab82d7dfbeeb096327
+      date: '2026-06-24'
+      sha: 0306f1943e6af5ac6728c5bbd209fd50b8fb588c
       status: SUCCESS
-      url: https://github.com/Cephla-Lab/Squid/commit/06a91af4cdb9a5b1475037ab82d7dfbeeb096327
+      url: https://github.com/Cephla-Lab/Squid/commit/0306f1943e6af5ac6728c5bbd209fd50b8fb588c
     last_release:
       date: '2026-05-18'
       tag_name: v0.6.3
@@ -1431,11 +1431,11 @@ sections:
     repo_info:
       created_at: '2024-10-21T11:10:05Z'
       description: null
-      open_issues: 27
-      size: 352697
+      open_issues: 26
+      size: 352881
       stargazers_count: 27
       topics: []
-      updated_at: '2026-06-18T20:36:45Z'
+      updated_at: '2026-06-24T05:55:46Z'
     user: Cephla-Lab
     workflow_run_status: SUCCESS
 - name: Integrative workflows
@@ -1443,19 +1443,19 @@ sections:
   - last_commit:
       author: tcompa
       date: '2026-06-23'
-      sha: c1c6cf3fa453c6277b295a9a12767a6fc9d5d924
+      sha: 278e28f8412fa0aaaf2c86028597ebdab065125d
       status: SUCCESS
-      url: https://github.com/fractal-analytics-platform/fractal-client/commit/c1c6cf3fa453c6277b295a9a12767a6fc9d5d924
+      url: https://github.com/fractal-analytics-platform/fractal-client/commit/278e28f8412fa0aaaf2c86028597ebdab065125d
     name: fractal
     repo: fractal-analytics-platform/fractal
     repo_info:
       created_at: '2022-02-23T21:39:49Z'
       description: Command-line client for Fractal
       open_issues: 0
-      size: 72554
+      size: 72774
       stargazers_count: 49
       topics: []
-      updated_at: '2026-06-23T08:26:54Z'
+      updated_at: '2026-06-23T12:50:22Z'
     user: fractal-analytics-platform
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1510,11 +1510,11 @@ sections:
     user: ilastik
     workflow_run_status: FAILURE
   - last_commit:
-      author: vjaganat90
-      date: '2026-06-05'
-      sha: 011df6091c76e257b4159a324a63b0c7c0bf2d0b
+      author: Vasu Jaganath
+      date: '2026-06-23'
+      sha: b89a9accd7220e9ebed377bfe1596dd69f4c1118
       status: SUCCESS
-      url: https://github.com/PolusAI/nyxus/commit/011df6091c76e257b4159a324a63b0c7c0bf2d0b
+      url: https://github.com/PolusAI/nyxus/commit/b89a9accd7220e9ebed377bfe1596dd69f4c1118
     last_release:
       date: '2026-02-11'
       tag_name: 0.11.0
@@ -1524,11 +1524,11 @@ sections:
     repo_info:
       created_at: '2021-09-15T14:28:01Z'
       description: A fully scalable robust  image feature extraction library.
-      open_issues: 11
-      size: 27439
+      open_issues: 10
+      size: 27457
       stargazers_count: 28
       topics: []
-      updated_at: '2026-06-05T17:32:06Z'
+      updated_at: '2026-06-23T20:32:33Z'
     user: PolusAI
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1672,10 +1672,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: elichad
-      date: '2026-06-22'
-      sha: fbf9792fb3bf78c78a3f6ff6142522df4aa65c5f
+      date: '2026-06-23'
+      sha: 95926b1e7bd48dfaa97e03f8ee99648008ab5a87
       status: SUCCESS
-      url: https://github.com/ResearchObject/ro-crate/commit/fbf9792fb3bf78c78a3f6ff6142522df4aa65c5f
+      url: https://github.com/ResearchObject/ro-crate/commit/95926b1e7bd48dfaa97e03f8ee99648008ab5a87
     last_release:
       date: '2026-06-22'
       tag_name: 1.3.0
@@ -1685,8 +1685,8 @@ sections:
     repo_info:
       created_at: '2019-02-13T10:04:36Z'
       description: Research Object Crate
-      open_issues: 122
-      size: 27701
+      open_issues: 123
+      size: 27715
       stargazers_count: 146
       topics:
       - jsonld
@@ -1694,7 +1694,7 @@ sections:
       - reproducibility
       - research-object
       - specification
-      updated_at: '2026-06-23T00:24:54Z'
+      updated_at: '2026-06-23T11:58:19Z'
     user: researchobject
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1718,18 +1718,18 @@ sections:
 - name: Other tools (to curate)
   packages:
   - last_commit:
-      author: btbest
-      date: '2026-06-18'
-      sha: ff3bf5ce2eef3c63a5ba42625c2a9c17521bfa16
+      author: dependabot[bot]
+      date: '2026-06-24'
+      sha: d973cb24120db728d36f8bca948d5b9d5cc985dc
       status: SUCCESS
-      url: https://github.com/ilastik/clearscale/commit/ff3bf5ce2eef3c63a5ba42625c2a9c17521bfa16
+      url: https://github.com/ilastik/clearscale/commit/d973cb24120db728d36f8bca948d5b9d5cc985dc
     name: clearscale
     repo: ilastik/clearscale
     repo_info:
       created_at: '2026-06-10T11:05:13Z'
       description: Abstractions for clear code about multiscale images
       open_issues: 0
-      size: 198
+      size: 200
       stargazers_count: 3
       topics:
       - bioimage
@@ -1740,7 +1740,7 @@ sections:
       - ome-zarr
       - precomputed
       - python
-      updated_at: '2026-06-18T14:36:58Z'
+      updated_at: '2026-06-24T08:08:40Z'
     user: ilastik
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1776,8 +1776,8 @@ sections:
     repo_info:
       created_at: '2023-05-30T16:52:18Z'
       description: computer vision models for single-cell phenotyping
-      open_issues: 59
-      size: 129466
+      open_issues: 62
+      size: 129470
       stargazers_count: 98
       topics:
       - bioimage-analysis
@@ -1820,72 +1820,72 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: chourroutm
-      date: '2026-06-14'
-      sha: 515212529c37ddf9f256c7175cf4a84eeedb3e97
+      date: '2026-06-23'
+      sha: 3637ee89499e9dce43f7691cc133081e0f873995
       status: null
-      url: https://github.com/chourroutm/organ-masker-lite/commit/515212529c37ddf9f256c7175cf4a84eeedb3e97
+      url: https://github.com/chourroutm/organ-masker-lite/commit/3637ee89499e9dce43f7691cc133081e0f873995
     name: organ-masker-lite
     repo: chourroutm/organ-masker-lite
     repo_info:
       created_at: '2026-06-14T16:43:30Z'
       description: null
       open_issues: 0
-      size: 155
+      size: 201
       stargazers_count: 0
       topics: []
-      updated_at: '2026-06-14T22:40:43Z'
+      updated_at: '2026-06-23T13:31:29Z'
     user: chourroutm
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: jiyuuchc
       date: '2026-06-23'
-      sha: 1754d13ac9ff1a447ade4f7fd2fe584f471034c8
-      status: FAILURE
-      url: https://github.com/biopb/biopb/commit/1754d13ac9ff1a447ade4f7fd2fe584f471034c8
+      sha: 93a8c6a5b1531bdce97e6a71118882f42a910e4c
+      status: SUCCESS
+      url: https://github.com/biopb/biopb/commit/93a8c6a5b1531bdce97e6a71118882f42a910e4c
     last_release:
-      date: '2026-06-22'
-      tag_name: release-v0.9.0rc2
-      url: https://github.com/biopb/biopb/releases/tag/release-v0.9.0rc2
+      date: '2026-06-23'
+      tag_name: release-v0.9.0
+      url: https://github.com/biopb/biopb/releases/tag/release-v0.9.0
     name: biopb
     repo: biopb/biopb
     repo_info:
       created_at: '2024-10-31T17:06:16Z'
       description: Bioimage analysis, driven by your agent
-      open_issues: 24
-      size: 6591
+      open_issues: 23
+      size: 6596
       stargazers_count: 2
       topics: []
-      updated_at: '2026-06-23T07:05:17Z'
+      updated_at: '2026-06-23T10:55:42Z'
     user: biopb
     workflow_run_status: SUCCESS
   - last_commit:
       author: cudmore
-      date: '2026-06-17'
-      sha: 262ef419a752d7f2b1b9d8f35b4bf906859cfab6
+      date: '2026-06-23'
+      sha: c494536bff74448054c620bf3951bf278c9c2c67
       status: SUCCESS
-      url: https://github.com/mapmanager/cloudscope/commit/262ef419a752d7f2b1b9d8f35b4bf906859cfab6
+      url: https://github.com/mapmanager/cloudscope/commit/c494536bff74448054c620bf3951bf278c9c2c67
     last_release:
-      date: '2026-06-11'
-      tag_name: v0.1.2
-      url: https://github.com/mapmanager/cloudscope/releases/tag/v0.1.2
+      date: '2026-06-23'
+      tag_name: v0.1.3
+      url: https://github.com/mapmanager/cloudscope/releases/tag/v0.1.3
     name: cloudscope
     repo: mapmanager/cloudscope
     repo_info:
       created_at: '2026-04-25T03:21:34Z'
       description: Image analysis for microscopy data with desktop, web, and scripting.
       open_issues: 0
-      size: 25114
+      size: 28597
       stargazers_count: 0
       topics: []
-      updated_at: '2026-06-17T14:30:59Z'
+      updated_at: '2026-06-23T21:07:37Z'
     user: mapmanager
     workflow_run_status: SUCCESS
   - last_commit:
       author: guillaumejaume
-      date: '2026-06-22'
-      sha: b523cfa2273d60c1a95b3f90bee377dc39bffb07
+      date: '2026-06-24'
+      sha: a91fa8490e0210ebbbe58452c3babe009e0ab7ca
       status: null
-      url: https://github.com/mahmoodlab/TRIDENT/commit/b523cfa2273d60c1a95b3f90bee377dc39bffb07
+      url: https://github.com/mahmoodlab/TRIDENT/commit/a91fa8490e0210ebbbe58452c3babe009e0ab7ca
     last_release:
       date: '2026-06-22'
       tag_name: v0.3.1
@@ -1895,9 +1895,9 @@ sections:
     repo_info:
       created_at: '2025-02-10T22:27:39Z'
       description: 'Toolkit for large-scale whole-slide image processing. '
-      open_issues: 32
-      size: 3514
-      stargazers_count: 583
+      open_issues: 31
+      size: 3515
+      stargazers_count: 585
       topics:
       - deep-learning
       - foundation-model
@@ -1905,7 +1905,7 @@ sections:
       - histology
       - pathology
       - whole-slide-image
-      updated_at: '2026-06-22T09:16:48Z'
+      updated_at: '2026-06-24T07:45:58Z'
     user: mahmoodlab
     workflow_run_status: SUCCESS
   - last_commit:
@@ -1932,18 +1932,18 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: assadiab
-      date: '2026-06-19'
-      sha: bee96ce781466078be0474ab2221dafbb1208206
-      status: null
-      url: https://github.com/assadiab/Interactive-Zarr-Explorer/commit/bee96ce781466078be0474ab2221dafbb1208206
+      date: '2026-06-23'
+      sha: d03f1dd3995d82ed4b8f5d3e40c92d7aa07e6a17
+      status: SUCCESS
+      url: https://github.com/assadiab/Interactive-Zarr-Explorer/commit/d03f1dd3995d82ed4b8f5d3e40c92d7aa07e6a17
     name: Viewer_interactif
     repo: assadiab/Viewer_interactif
     repo_info:
       created_at: '2026-06-13T21:34:14Z'
       description: "\U0001F52C Interactive web application for visualization, exploration\
         \ and analysis of large OME-Zarr biomedical imaging datasets."
-      open_issues: 1
-      size: 26842
+      open_issues: 14
+      size: 28587
       stargazers_count: 0
       topics:
       - bioimaging
@@ -1952,9 +1952,9 @@ sections:
       - scientific-visualization
       - viewer
       - zarr
-      updated_at: '2026-06-21T16:32:58Z'
+      updated_at: '2026-06-23T23:01:26Z'
     user: assadiab
-    workflow_run_status: NO_WORKFLOWS
+    workflow_run_status: SUCCESS
   - last_commit:
       author: akhanf
       date: '2026-06-22'
@@ -1971,8 +1971,8 @@ sections:
       created_at: '2024-02-15T21:41:31Z'
       description: SnakeBIDS app for quantitative analysis of SPIM (lightsheet) brain
         data
-      open_issues: 16
-      size: 135675
+      open_issues: 17
+      size: 135684
       stargazers_count: 8
       topics:
       - bids
@@ -1985,10 +1985,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: ieivanov
-      date: '2026-06-12'
-      sha: 15684a73867dad366bc149ce32c45905a56ba519
+      date: '2026-06-23'
+      sha: 12fdb9353bce91342ee831e1a4f980b09918def1
       status: SUCCESS
-      url: https://github.com/czbiohub-sf/biahub/commit/15684a73867dad366bc149ce32c45905a56ba519
+      url: https://github.com/czbiohub-sf/biahub/commit/12fdb9353bce91342ee831e1a4f980b09918def1
     last_release:
       date: '2025-03-13'
       tag_name: 0.0.1rc1
@@ -1998,11 +1998,11 @@ sections:
     repo_info:
       created_at: '2024-07-19T20:21:21Z'
       description: HUB for Bio Image Analysis
-      open_issues: 113
-      size: 15857
+      open_issues: 112
+      size: 16180
       stargazers_count: 13
       topics: []
-      updated_at: '2026-06-16T22:00:45Z'
+      updated_at: '2026-06-23T20:25:26Z'
     user: czbiohub-sf
     workflow_run_status: SUCCESS
   - last_commit:
@@ -2022,7 +2022,7 @@ sections:
       description: GPU accelerated post-processing for 2D or 3D imaging spatial transcriptomics
         data.
       open_issues: 4
-      size: 5323
+      size: 5339
       stargazers_count: 10
       topics:
       - gpu-acceleration
@@ -2036,20 +2036,20 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: Bisaloo
-      date: '2026-06-16'
-      sha: e3e6ca5d6f676c6d81f913263721105311ecef63
+      date: '2026-06-23'
+      sha: 15116023932078e5f2042537fec1f3bc87c01931
       status: FAILURE
-      url: https://github.com/Huber-group-EMBL/romeo/commit/e3e6ca5d6f676c6d81f913263721105311ecef63
+      url: https://github.com/Huber-group-EMBL/romeo/commit/15116023932078e5f2042537fec1f3bc87c01931
     name: romeo
     repo: Huber-group-EMBL/romeo
     repo_info:
       created_at: '2026-04-15T07:18:08Z'
       description: A minimal multiscale OME-Zarr reader for R
-      open_issues: 6
-      size: 7127
+      open_issues: 8
+      size: 7142
       stargazers_count: 6
       topics: []
-      updated_at: '2026-06-19T13:11:12Z'
+      updated_at: '2026-06-23T18:06:16Z'
     user: Huber-group-EMBL
     workflow_run_status: FAILURE
   - last_commit:
@@ -2188,10 +2188,10 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: joshua-gould
-      date: '2026-06-22'
-      sha: 43e3d21fda7d11ed753a246d47ba78b4b9fdd3f1
+      date: '2026-06-23'
+      sha: 39a639192392973cb7bb5514201ffce19bc901e4
       status: SUCCESS
-      url: https://github.com/Genentech/scallops/commit/43e3d21fda7d11ed753a246d47ba78b4b9fdd3f1
+      url: https://github.com/Genentech/scallops/commit/39a639192392973cb7bb5514201ffce19bc901e4
     name: scallops
     repo: Genentech/scallops
     repo_info:
@@ -2199,11 +2199,11 @@ sections:
       description: 'SCALLOPS (Scalable Library for Optical Pooled Screens) is a comprehensive
         Python package designed to streamline and scale the analysis of Optical Pooled
         Screens (OPS) for biological data. '
-      open_issues: 2
-      size: 1779
+      open_issues: 1
+      size: 1806
       stargazers_count: 8
       topics: []
-      updated_at: '2026-06-22T16:46:59Z'
+      updated_at: '2026-06-23T19:19:06Z'
     user: Genentech
     workflow_run_status: SUCCESS
   - last_commit:
@@ -2218,7 +2218,7 @@ sections:
       created_at: '2020-12-10T02:27:32Z'
       description: null
       open_issues: 1
-      size: 17863
+      size: 17865
       stargazers_count: 10
       topics: []
       updated_at: '2026-06-12T19:41:26Z'
@@ -2250,9 +2250,9 @@ sections:
   - last_commit:
       author: AugustHoeg
       date: '2026-06-23'
-      sha: 1366542137f5cc0f520577126d93af517fc8b314
+      sha: 70fa1884c8ea15c63d18903bf51b29006f4df752
       status: null
-      url: https://github.com/AugustHoeg/VoxelSR/commit/1366542137f5cc0f520577126d93af517fc8b314
+      url: https://github.com/AugustHoeg/VoxelSR/commit/70fa1884c8ea15c63d18903bf51b29006f4df752
     name: VoxelSR
     repo: AugustHoeg/VoxelSR
     repo_info:
@@ -2260,33 +2260,33 @@ sections:
       description: 'VoxelSR: A Deep Learning Framework for Super-Resolution of Volumetric
         Data'
       open_issues: 1
-      size: 615079
+      size: 615108
       stargazers_count: 4
       topics: []
-      updated_at: '2026-06-23T08:08:43Z'
+      updated_at: '2026-06-23T10:39:29Z'
     user: AugustHoeg
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
-      author: dependabot[bot]
-      date: '2026-06-21'
-      sha: 8ae3331a56940cd9ae7891bebd73e3b1064e84a1
+      author: d33bs
+      date: '2026-06-23'
+      sha: 4d46cd33a0c1499c86ce0894a15cca145c924af8
       status: SUCCESS
-      url: https://github.com/WayScience/ome-arrow/commit/8ae3331a56940cd9ae7891bebd73e3b1064e84a1
+      url: https://github.com/WayScience/ome-arrow/commit/4d46cd33a0c1499c86ce0894a15cca145c924af8
     last_release:
-      date: '2026-06-07'
-      tag_name: v0.0.10
-      url: https://github.com/WayScience/ome-arrow/releases/tag/v0.0.10
+      date: '2026-06-23'
+      tag_name: v0.0.11
+      url: https://github.com/WayScience/ome-arrow/releases/tag/v0.0.11
     name: ome-arrow
     repo: WayScience/ome-arrow
     repo_info:
       created_at: '2025-11-03T18:07:19Z'
       description: Using OME specifications with Apache Arrow for fast, queryable,
         and language agnostic bioimage data.
-      open_issues: 7
-      size: 50809
+      open_issues: 6
+      size: 50812
       stargazers_count: 7
       topics: []
-      updated_at: '2026-06-21T22:49:44Z'
+      updated_at: '2026-06-23T19:28:18Z'
     user: WayScience
     workflow_run_status: SUCCESS
   - last_commit:
@@ -2343,7 +2343,7 @@ sections:
       created_at: '2023-10-05T15:11:43Z'
       description: null
       open_issues: 1
-      size: 3823
+      size: 3825
       stargazers_count: 1
       topics: []
       updated_at: '2026-04-24T20:38:27Z'
@@ -2351,20 +2351,20 @@ sections:
     workflow_run_status: FAILURE
   - last_commit:
       author: MichaelSNelson
-      date: '2026-06-22'
-      sha: 3482788797183e35db43564c73bf9d203e19a599
+      date: '2026-06-24'
+      sha: 44c04f2e1f05f1de88086448e2c55a0fd2dd72b3
       status: SUCCESS
-      url: https://github.com/uw-loci/Flamingo_Control/commit/3482788797183e35db43564c73bf9d203e19a599
+      url: https://github.com/uw-loci/Flamingo_Control/commit/44c04f2e1f05f1de88086448e2c55a0fd2dd72b3
     name: Flamingo_Control
     repo: uw-loci/Flamingo_Control
     repo_info:
       created_at: '2023-04-07T02:50:39Z'
       description: Controlling a Flamingo microscope from Python
       open_issues: 0
-      size: 15650
+      size: 15849
       stargazers_count: 2
       topics: []
-      updated_at: '2026-06-22T23:43:29Z'
+      updated_at: '2026-06-24T04:43:58Z'
     user: uw-loci
     workflow_run_status: SUCCESS
   - last_commit:
@@ -2582,18 +2582,18 @@ sections:
     workflow_run_status: SUCCESS
   - last_commit:
       author: nilsmechtel
-      date: '2026-06-17'
-      sha: 72648cb3c3f6569a0d1907f3a4bba829e26837e3
-      status: SUCCESS
-      url: https://github.com/aicell-lab/bioengine/commit/72648cb3c3f6569a0d1907f3a4bba829e26837e3
+      date: '2026-06-23'
+      sha: aaa048790b30547adfc2a4a662327bca0c2a5332
+      status: null
+      url: https://github.com/aicell-lab/bioengine/commit/aaa048790b30547adfc2a4a662327bca0c2a5332
     name: bioengine
     repo: aicell-lab/bioengine
     repo_info:
       created_at: '2024-09-17T09:01:53Z'
       description: BioEngine is a distributed AI platform that brings the power of
         cloud computing to bioimage analysis.
-      open_issues: 1
-      size: 8334
+      open_issues: 7
+      size: 8390
       stargazers_count: 5
       topics:
       - ai-agents
@@ -2608,7 +2608,7 @@ sections:
       - model-zoo
       - python
       - ray-serve
-      updated_at: '2026-06-17T22:31:59Z'
+      updated_at: '2026-06-23T15:50:03Z'
     user: aicell-lab
     workflow_run_status: SUCCESS
   - last_commit:
@@ -2761,10 +2761,10 @@ sections:
   packages:
   - last_commit:
       author: AA-Turner
-      date: '2026-06-23'
-      sha: 41de2c7476f535503dda671fb7836346d3bff9f0
+      date: '2026-06-24'
+      sha: f54e7681fc1e8b98f3eb016a81e83e2104cd0774
       status: null
-      url: https://github.com/AA-Turner/top-pypi-sdists-full/commit/41de2c7476f535503dda671fb7836346d3bff9f0
+      url: https://github.com/AA-Turner/top-pypi-sdists-full/commit/f54e7681fc1e8b98f3eb016a81e83e2104cd0774
     name: top-pypi-sdists-full
     repo: AA-Turner/top-pypi-sdists-full
     repo_info:
@@ -2772,10 +2772,10 @@ sections:
       description: The source distributions (sdists) for the top packages on the Python
         Package Index (PyPI)
       open_issues: 0
-      size: 8141537
+      size: 8129878
       stargazers_count: 3
       topics: []
-      updated_at: '2026-06-23T07:11:37Z'
+      updated_at: '2026-06-24T07:14:08Z'
     user: AA-Turner
     workflow_run_status: SUCCESS
   - last_commit:
@@ -4221,10 +4221,10 @@ sections:
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: macromeer
-      date: '2026-06-22'
-      sha: 6cfdcadf8be34808ce77989d8e69c5f262a0e0f8
+      date: '2026-06-23'
+      sha: fd57136be92075fac538b1c2442639020c402e5b
       status: SUCCESS
-      url: https://github.com/MercaderLabAnatomy/napari-tmidas/commit/6cfdcadf8be34808ce77989d8e69c5f262a0e0f8
+      url: https://github.com/MercaderLabAnatomy/napari-tmidas/commit/fd57136be92075fac538b1c2442639020c402e5b
     last_release:
       date: '2026-06-16'
       tag_name: v0.5.7
@@ -4236,7 +4236,7 @@ sections:
       description: Automated batch processing of cell and tissue microscopy image
         data in Napari
       open_issues: 0
-      size: 1438
+      size: 1494
       stargazers_count: 19
       topics:
       - batch-processing
@@ -4249,7 +4249,7 @@ sections:
       - napari-plugin
       - nuclei-segmentation
       - sam2
-      updated_at: '2026-06-22T22:47:47Z'
+      updated_at: '2026-06-23T16:23:21Z'
     user: MercaderLabAnatomy
     workflow_run_status: SUCCESS
   - last_commit:
@@ -4683,29 +4683,29 @@ sections:
       description: Multi-Dimensional Visualization (MDV) is an open-source toolkit
         for analyzing and visualizing spatial and molecular datasets. Code licensed
         under GPL-3.0; example spatial data under CC0 1.0.
-      open_issues: 47
-      size: 411236
+      open_issues: 46
+      size: 411325
       stargazers_count: 37
       topics: []
       updated_at: '2026-06-22T16:21:41Z'
     user: Taylor-CCB-Group
     workflow_run_status: SUCCESS
   - last_commit:
-      author: github-actions[bot]
-      date: '2026-06-22'
-      sha: 843b4aaac7e1b4269c1c59985f365d6d32a76390
+      author: xinaesthete
+      date: '2026-06-24'
+      sha: 81d0447679a533639fc5489e8d393b0b9e6ffe19
       status: SUCCESS
-      url: https://github.com/Taylor-CCB-Group/SpatialData.js/commit/843b4aaac7e1b4269c1c59985f365d6d32a76390
+      url: https://github.com/Taylor-CCB-Group/SpatialData.js/commit/81d0447679a533639fc5489e8d393b0b9e6ffe19
     name: SpatialData.js
     repo: Taylor-CCB-Group/SpatialData.js
     repo_info:
       created_at: '2025-10-07T09:01:52Z'
       description: A library for interfacing with SpatialData stores in TS/JS
-      open_issues: 9
-      size: 2071
+      open_issues: 10
+      size: 3570
       stargazers_count: 7
       topics: []
-      updated_at: '2026-06-22T12:08:52Z'
+      updated_at: '2026-06-24T08:52:43Z'
     user: Taylor-CCB-Group
     workflow_run_status: SUCCESS
   - last_commit:
@@ -5036,20 +5036,20 @@ sections:
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
       author: jpmcga
-      date: '2026-06-12'
-      sha: 2afcead7eeaeac879a03f9e89e891a52237ee85b
+      date: '2026-06-23'
+      sha: f76766c211382c0d9fdd48666dea11cf6d567098
       status: null
-      url: https://github.com/atlasxomics/ATX_snap/commit/2afcead7eeaeac879a03f9e89e891a52237ee85b
+      url: https://github.com/atlasxomics/ATX_snap/commit/f76766c211382c0d9fdd48666dea11cf6d567098
     name: ATX_snap
     repo: atlasxomics/ATX_snap
     repo_info:
       created_at: '2024-09-05T17:32:50Z'
       description: Process fragments to spatial analysis objects with SnapATAC2
       open_issues: 0
-      size: 133361
+      size: 133362
       stargazers_count: 0
       topics: []
-      updated_at: '2026-06-12T17:51:17Z'
+      updated_at: '2026-06-23T15:44:26Z'
     user: atlasxomics
     workflow_run_status: NO_WORKFLOWS
   - last_commit:
@@ -5248,7 +5248,7 @@ sections:
       created_at: '2024-09-05T07:38:06Z'
       description: Image registration using multiview-stitcher
       open_issues: 6
-      size: 47590
+      size: 47600
       stargazers_count: 6
       topics: []
       updated_at: '2026-06-22T14:55:36Z'
@@ -5310,8 +5310,8 @@ sections:
     repo_info:
       created_at: '2024-01-29T18:30:37Z'
       description: CryoET Data Portal API server & ingestion scripts
-      open_issues: 44
-      size: 15224
+      open_issues: 47
+      size: 15230
       stargazers_count: 7
       topics: []
       updated_at: '2026-06-10T21:24:00Z'
@@ -5786,8 +5786,8 @@ sections:
     repo_info:
       created_at: '2023-12-22T12:08:13Z'
       description: null
-      open_issues: 10
-      size: 1360
+      open_issues: 7
+      size: 1537
       stargazers_count: 9
       topics: []
       updated_at: '2026-06-03T15:01:31Z'
@@ -6006,8 +6006,8 @@ sections:
     repo_info:
       created_at: '2020-04-06T15:47:21Z'
       description: null
-      open_issues: 4
-      size: 42309
+      open_issues: 5
+      size: 42318
       stargazers_count: 4
       topics:
       - ot2od030545
@@ -6294,19 +6294,19 @@ sections:
   - last_commit:
       author: arjun-banerjee
       date: '2026-06-23'
-      sha: 35132aeeba0e5a7cae36e71ce421e2fc71302db1
+      sha: bd9e301f42c7fe75f67c8d9f4ac0a8800d4339be
       status: null
-      url: https://github.com/latchbio/latch-eval-tools/commit/35132aeeba0e5a7cae36e71ce421e2fc71302db1
+      url: https://github.com/latchbio/latch-eval-tools/commit/bd9e301f42c7fe75f67c8d9f4ac0a8800d4339be
     name: latch-eval-tools
     repo: latchbio/latch-eval-tools
     repo_info:
       created_at: '2026-02-03T22:11:14Z'
       description: null
       open_issues: 5
-      size: 1394
+      size: 1416
       stargazers_count: 1
       topics: []
-      updated_at: '2026-06-23T06:05:56Z'
+      updated_at: '2026-06-23T23:18:12Z'
     user: latchbio
     workflow_run_status: SUCCESS
   - last_commit:
@@ -6393,7 +6393,7 @@ sections:
       created_at: '2023-05-19T14:46:57Z'
       description: The LINUM's Serial Blockface Histology Processing Toolbox
       open_issues: 48
-      size: 5544
+      size: 5574
       stargazers_count: 5
       topics: []
       updated_at: '2026-05-07T15:40:50Z'
@@ -6501,7 +6501,7 @@ sections:
       description: Wave optical models and inverse algorithms for label-agnostic imaging
         of density & orientation.
       open_issues: 69
-      size: 273159
+      size: 273166
       stargazers_count: 44
       topics:
       - label-free
@@ -6897,14 +6897,14 @@ sections:
         features.
       open_issues: 7
       size: 33719
-      stargazers_count: 132
+      stargazers_count: 133
       topics:
       - niches
       - self-supervised-learning
       - spatial-domains
       - spatial-omics
       - spatial-transcriptomics
-      updated_at: '2026-06-21T12:30:41Z'
+      updated_at: '2026-06-23T11:29:59Z'
     user: prism-oncology
     workflow_run_status: SUCCESS
   - last_commit:
@@ -7062,9 +7062,9 @@ sections:
       description: A napari plugin to process and analyse images with chatGPT!
       open_issues: 3
       size: 65637
-      stargazers_count: 296
+      stargazers_count: 297
       topics: []
-      updated_at: '2026-05-24T07:42:16Z'
+      updated_at: '2026-06-23T20:06:35Z'
     user: royerlab
     workflow_run_status: SUCCESS
   - last_commit:
