@@ -1,9 +1,33 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-27T05:04:08+00:00",
+  "generated": "2026-06-28T05:44:49+00:00",
   "recent_days": 10,
-  "total_commits": 1122,
+  "total_commits": 1127,
   "commits": [
+    {
+      "commit_date": "2026-06-27T23:02:02.000+02:00",
+      "author": "AI Agent",
+      "repository": "ZMB-UZH/omero-docker-extended",
+      "commit_url": "https://github.com/ZMB-UZH/omero-docker-extended/commit/f2ad17c96ab7fa00fe5555ade17951e80ef25334"
+    },
+    {
+      "commit_date": "2026-06-27T21:28:12.000-05:00",
+      "author": "SuperOptimizer",
+      "repository": "SuperOptimizer/fenix",
+      "commit_url": "https://github.com/SuperOptimizer/fenix/commit/24116d9889d21294b2b8999ced1a2ffc7989fb4f"
+    },
+    {
+      "commit_date": "2026-06-27T11:16:07.000+01:00",
+      "author": "nelsmedina",
+      "repository": "nelsmedina/MOSS_full",
+      "commit_url": "https://github.com/nelsmedina/MOSS_full/commit/d2cbd437d34b721ec876d7d3182770c5d7267f45"
+    },
+    {
+      "commit_date": "2026-06-27T11:16:07.000+01:00",
+      "author": "nelsmedina",
+      "repository": "StructuralNeurobiologyLab/MOSS",
+      "commit_url": "https://github.com/StructuralNeurobiologyLab/MOSS/commit/d2cbd437d34b721ec876d7d3182770c5d7267f45"
+    },
     {
       "commit_date": "2026-06-26T21:16:10.000+01:00",
       "author": "simaopseixas",
@@ -21,6 +45,12 @@
       "author": "m-albert",
       "repository": "multiview-stitcher/multiview-stitcher",
       "commit_url": "https://github.com/multiview-stitcher/multiview-stitcher/commit/0a4d7e07371b10f5c394b5b130ef98d3b76ea90a"
+    },
+    {
+      "commit_date": "2026-06-26T15:21:42.000-07:00",
+      "author": "mspend",
+      "repository": "mspend/big-fish-examples",
+      "commit_url": "https://github.com/mspend/big-fish-examples/commit/d40f6b3b0031b3bcd2954fc59336bd05b4d23372"
     },
     {
       "commit_date": "2026-06-26T14:52:38.000+02:00",
