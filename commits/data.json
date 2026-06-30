@@ -1,9 +1,69 @@
 {
   "query": "\"OME-Zarr\"",
-  "generated": "2026-06-28T05:44:49+00:00",
+  "generated": "2026-06-30T05:17:39+00:00",
   "recent_days": 10,
-  "total_commits": 1127,
+  "total_commits": 1138,
   "commits": [
+    {
+      "commit_date": "2026-06-29T23:14:28.000-04:00",
+      "author": "cgoina",
+      "repository": "JaneliaSciComp/zarr-tools",
+      "commit_url": "https://github.com/JaneliaSciComp/zarr-tools/commit/858a6838ad4353a41f18bc834d7d1cea59b4acdd"
+    },
+    {
+      "commit_date": "2026-06-29T20:55:37.000-07:00",
+      "author": "ferrinm",
+      "repository": "ferrinm/zarrmony",
+      "commit_url": "https://github.com/ferrinm/zarrmony/commit/e40c566641625fc545ae4d3195e2ae558c101488"
+    },
+    {
+      "commit_date": "2026-06-29T17:35:52.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/370e5405ebbb1bf716fbfe71d8696b15a5ffd140"
+    },
+    {
+      "commit_date": "2026-06-29T17:26:19.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/5deee085aab3d96e2cb4bed3b0d2bcf4fdd53da1"
+    },
+    {
+      "commit_date": "2026-06-29T17:12:10.000-07:00",
+      "author": "amilworks",
+      "repository": "amilworks/ultra",
+      "commit_url": "https://github.com/amilworks/ultra/commit/1668116c0bfc8cf4b7bd4a894e08efc4877a98ad"
+    },
+    {
+      "commit_date": "2026-06-29T15:15:58.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/c72ab1bedfa55e66f1188508687f00351ff919e2"
+    },
+    {
+      "commit_date": "2026-06-29T14:47:58.000-05:00",
+      "author": "regro-cf-autotick-bot",
+      "repository": "conda-forge/conda-forge-bot-data",
+      "commit_url": "https://github.com/conda-forge/conda-forge-bot-data/commit/3273fccfb292284fddf816e16833c7d3862635e9"
+    },
+    {
+      "commit_date": "2026-06-29T00:01:30.000-07:00",
+      "author": "uermel",
+      "repository": "copick/copick-utils",
+      "commit_url": "https://github.com/copick/copick-utils/commit/efef59ebe9b38dd6bc32099a2e3715a145f5d8fb"
+    },
+    {
+      "commit_date": "2026-06-28T20:13:10.000+02:00",
+      "author": "jluethi",
+      "repository": "fractal-napari-plugins-collection/napari-ome-zarr-navigator",
+      "commit_url": "https://github.com/fractal-napari-plugins-collection/napari-ome-zarr-navigator/commit/dc9ff7e852f0bbef45fd003b87a0f5d5fa3287af"
+    },
+    {
+      "commit_date": "2026-06-28T16:34:38.000+02:00",
+      "author": "vboussot",
+      "repository": "vboussot/KonfAI",
+      "commit_url": "https://github.com/vboussot/KonfAI/commit/d15ede83079dd45bd204a6844072fd9153e3d78f"
+    },
     {
       "commit_date": "2026-06-27T23:02:02.000+02:00",
       "author": "AI Agent",
@@ -15,6 +75,12 @@
       "author": "SuperOptimizer",
       "repository": "SuperOptimizer/fenix",
       "commit_url": "https://github.com/SuperOptimizer/fenix/commit/24116d9889d21294b2b8999ced1a2ffc7989fb4f"
+    },
+    {
+      "commit_date": "2026-06-27T15:39:29.000-04:00",
+      "author": "arjunrajlab",
+      "repository": "arjunrajlaboratory/NimbusImage",
+      "commit_url": "https://github.com/arjunrajlaboratory/NimbusImage/commit/8c6bf3b12580ea52f928f71e6ae548e9e676eb17"
     },
     {
       "commit_date": "2026-06-27T11:16:07.000+01:00",
